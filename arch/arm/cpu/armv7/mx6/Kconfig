@@ -87,10 +87,10 @@ config TARGET_MX6SABRESD
 	select DM_THERMAL
 
 config TARGET_MX6OPENREX
-    bool "mx6openrex"
-    select SUPPORT_SPL
-    select DM
-    select DM_THERMAL
+	bool "mx6openrex"
+	select SUPPORT_SPL
+	select DM
+	select DM_THERMAL
 
 config TARGET_MX6SLEVK
 	bool "mx6slevk"
